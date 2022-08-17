@@ -25,4 +25,5 @@ if __name__ == '__main__':
     print(zm.public)
     print(zm.privat_fetch2)
     print(zm.__init__)
-    
+    print(zm._protected)
+    print(zm.public*2)
