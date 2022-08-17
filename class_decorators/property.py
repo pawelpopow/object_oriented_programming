@@ -21,3 +21,8 @@ class Variable:
 if __name__ == '__main__':
     zm = Variable()
     print(zm)
+    print(zm.private_variable)
+    print(zm.public)
+    print(zm.privat_fetch2)
+    print(zm.__init__)
+    
