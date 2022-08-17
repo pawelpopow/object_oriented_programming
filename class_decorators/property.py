@@ -27,3 +27,5 @@ if __name__ == '__main__':
     print(zm.__init__)
     print(zm._protected)
     print(zm.public*2)
+    print(type(zm))
+    print(type(zm.public))
