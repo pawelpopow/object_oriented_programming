@@ -5,7 +5,7 @@ class Town:
         self.__county = county
 
     def location(self):
-        print(self.__name + ", county " + self.__county)
+        print(self.__name + ", powiat " + self.__county)
 
     def _county(self):
         '''metoda z założenia chroniona jedynie do wykorzystania w klasach potomnych'''
@@ -23,3 +23,7 @@ if __name__ == '__main__':
     town1.location()
     town2.location()
     town3.location()
+
+    # Luboń, county poznański
+    # Pomorskie, county Gdansk
+    # Slaskie, county Wrocław
