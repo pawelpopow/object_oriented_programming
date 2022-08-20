@@ -18,4 +18,8 @@ class Town:
 
 if __name__ == '__main__':
     town1 = Town("Luboń", "poznański")
+    town2 = Town("Pomorskie", "Gdansk")
+    town3 = Town("Slaskie", "Wrocław")
     town1.location()
+    town2.location()
+    town3.location()
