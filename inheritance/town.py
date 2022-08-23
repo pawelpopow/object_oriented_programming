@@ -25,6 +25,10 @@ if __name__ == '__main__':
     town1.location()
     town2.location()
     town3.location()
+    print(type(town1))
+    print(type(town2))
+    print(type(town3))
+
 
     # Luboń, county poznański
     # Pomorskie, county Gdansk
