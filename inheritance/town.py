@@ -7,9 +7,13 @@ class Town:
 
     def location(self):
         print(self.__name + ", powiat " + self.__county)
+        print('-------------------------------------------------------------------------------')
         print('To jest powiat: ' + self.__county)
+        print('-------------------------------------------------------------------------------')
         print('To województwo: ' + self.__name)
+        print('-------------------------------------------------------------------------------')
         print('Mam na  imie: ' + self.firstname + ', mój powiat to: ' + self.__county + ', województwo: ' + self.__name)
+        print('-------------------------------------------------------------------------------')
 
     def _county(self):
         '''metoda z założenia chroniona jedynie do wykorzystania w klasach potomnych'''
