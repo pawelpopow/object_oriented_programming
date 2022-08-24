@@ -29,8 +29,8 @@ class Town:
 
 if __name__ == '__main__':
     town1 = Town("Luboń", "Poznański", "Jacek", "634324453")
-    # town2 = Town("Pomorskie", "Gdansk", "Bartek")
-    # town3 = Town("Slaskie", "Wrocław", "Ala")
+    # town2 = Town("Pomorskie", "Gdansk", "Bartek", "544432532")
+    # town3 = Town("Slaskie", "Wrocław", "Ala", "645323523")
     town1.location()
     # town2.location()
     # town3.location()
