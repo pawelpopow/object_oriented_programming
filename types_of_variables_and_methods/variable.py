@@ -14,8 +14,3 @@ class Variable:
     def private_variable(self, new_value):  # zmieniamy dwie waratości
         self.__private1 = new_value
         self.__privacy_double = self.__private1 * 2
-
-
-if __name__ == '__main__':
-    zm = Variable()
-    print(zm)
