@@ -1,9 +1,10 @@
 # nie zakładamy sprawdzania zgodności typów
 class Town:
-    def __init__(self, name, county, firstname):
+    def __init__(self, name, county, firstname, phone):
         self.__name = name  # zmienne prywatne, niedostępne do modyfikacji po zainicjowaniu
         self.__county = county
         self.firstname = firstname
+        self.phone = phone
 
     def location(self):
         print(self.__name + ", powiat " + self.__county)
@@ -12,7 +13,9 @@ class Town:
         print('-------------------------------------------------------------------------------')
         print('To województwo: ' + self.__name)
         print('-------------------------------------------------------------------------------')
-        print('Mam na  imie: ' + self.firstname + ', mój powiat to: ' + self.__county + ', województwo: ' + self.__name)
+        print(
+            'Mam na  imie: ' + self.firstname + ', mój powiat to: ' + self.__county + ', województwo: ' + self.__name +
+            ', numerze: ' + self.phone)
         print('-------------------------------------------------------------------------------')
 
     def _county(self):
@@ -25,7 +28,7 @@ class Town:
 
 
 if __name__ == '__main__':
-    town1 = Town("Luboń", "Poznański", "Jacek")
+    town1 = Town("Luboń", "Poznański", "Jacek", "634324453")
     # town2 = Town("Pomorskie", "Gdansk", "Bartek")
     # town3 = Town("Slaskie", "Wrocław", "Ala")
     town1.location()
