@@ -6,3 +6,4 @@ class Write:
         self.list1 = [value, 23, 39]
         self.list2 = [np1, value, 43]
         self.list3 = self.list2
+        self.list4 = self.list1
