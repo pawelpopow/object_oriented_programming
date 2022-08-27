@@ -6,3 +6,4 @@ if __name__ == '__main__':
     print(obj.number)
     print(obj.list)
     print(obj.list1)
+    print(obj.list2)
