@@ -1,4 +1,4 @@
-from inheritance.town import Town
+from inheritance.town import Town, City
 
 if __name__ == '__main__':
     town1 = Town("Luboń", "Poznański", "Jacek", "632323437")
@@ -14,3 +14,6 @@ if __name__ == '__main__':
     # Luboń, county poznański
     # Pomorskie, county Gdansk
     # Slaskie, county Wrocław
+
+    city1 = City("Nowe", "świecki", "Marek", "643232532")
+    city1.location()
