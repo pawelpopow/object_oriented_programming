@@ -7,3 +7,4 @@ if __name__ == '__main__':
     print(obj.list)
     print(obj.list1)
     print(obj.list2)
+    print(obj.list3)
