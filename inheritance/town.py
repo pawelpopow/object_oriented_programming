@@ -33,6 +33,7 @@ class City(Town):
 
     def location(self):
         print('Miasto i gmina {0:%>s}, powiat {1:%>s}'.format(self._name(), self._county()))
+        print('-------------------------------------------------------------------------------')
 
 
 class Village(Town):
@@ -42,3 +43,4 @@ class Village(Town):
 
     def location(self):
         print('{0:%>s}, gmina {1:%>s}, powiat {2:%>s}'.format(self._name(), self.__community, self._county()))
+        print('-------------------------------------------------------------------------------')
