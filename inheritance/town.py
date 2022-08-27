@@ -26,15 +26,7 @@ class Town:
         '''metoda z założenia chroniona jedynie do wykorzystania w klasach potomnych'''
         return self.__county
 
-    def _firstname(self):
-        '''metoda z założenia chroniona jedynie do wykorzystania w klasach potomnych'''
-        return self.firstname
-
-    def _phone(self):
-        '''metoda z założenia chroniona jedynie do wykorzystania w klasach potomnych'''
-        return self._phone
-
-
+  
 class City(Town):
     def __init__(self, name, county, firstname, phone):
         super().__init__(name, county, firstname, phone)
