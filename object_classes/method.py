@@ -3,3 +3,4 @@ class Write:
         self.write1 = np1
         self.number = value  # pomijamy sprawdzanie typów
         self.list = [1, 0, 2]
+        self.list1 = [value, 23, 39]
